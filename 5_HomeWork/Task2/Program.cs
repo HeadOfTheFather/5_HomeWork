@@ -29,7 +29,7 @@ Console.WriteLine("This is your array: ");
 PrintArray(numbers);
 int sum = 0;
 
-for (int i = 0; i < numbers.Length; i = i + 2)
+for (int i = 1; i < numbers.Length; i = i + 2)
 {
     sum = sum + numbers[i];
 }
